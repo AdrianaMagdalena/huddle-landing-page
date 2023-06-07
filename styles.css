@@ -67,23 +67,29 @@ body {
   background-image: url(./images/bg-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  display: grid;
-  gap: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 2.25rem;
   font-family: var(--ff-body);
   font-weight: var(--fw-400);
   color: white;
-  position: relative;
 }
 
 .huddle-logo {
-  height: 2rem;
+  height: 1.85rem;
 }
 
 .mockup-pic {
   width: 100%;
   max-width: 350px;
   margin: 0 auto;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
 }
 
 main {
@@ -132,25 +138,24 @@ main p {
 }
 
 .sm-icon {
-  height: 1rem;
-  width: 1rem;
+  font-size: 0.8rem;
 }
 
 .sm-border:hover,
 .sm-border:focus {
   border-color: var(--clr-primary-700);
+  cursor: pointer;
 }
 
 .sm-border:hover .sm-icon,
 .sm-border:focus .sm-icon {
   color: var(--clr-primary-700);
+  cursor: pointer;
 }
 /* attribution */
 
 .attribution-section {
-  position: absolute;
-  width: 100%;
-  bottom: 0.25rem;
+  display: none;
 }
 .attribution {
   font-size: 11px;
@@ -158,4 +163,59 @@ main p {
 }
 .attribution a {
   color: var(--clr-primary-700);
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-image: url(./images/bg-desktop.svg);
+    background-size: cover;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem 4rem 2rem;
+  }
+
+  .huddle-logo {
+    height: 3.25rem;
+  }
+
+  picture {
+    width: 100%;
+    height: auto;
+  }
+
+  .mockup-pic {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    margin: auto auto;
+    max-width: none;
+  }
+
+  article {
+    display: grid;
+    gap: 5rem;
+    margin: 0 auto;
+    grid-template-columns: 1.5fr 1fr;
+    max-width: 1440px;
+  }
+
+  main {
+    text-align: left;
+    margin: auto auto;
+  }
+
+  main h1 {
+    font-size: 2.25rem;
+  }
+
+  .button {
+    font-size: 1.125rem;
+    padding: 0.75em 3.5em;
+    box-shadow: 3px 3px 3px 3px var(--clr-shadow-400);
+  }
+
+  .flex-group {
+    justify-content: flex-end;
+  }
 }
