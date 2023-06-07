@@ -65,6 +65,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Josh's CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/) - My go-to CSS Reset template, to make work with CSS simpler and faster
+- [Facebook logo](https://fontawesome.com/icons/facebook-f?f=brands&s=solid&pc=%23000000)
+- [Instagram logo & Twitter logo](https://ionic.io/ionicons/)
 
 ## Author
 
