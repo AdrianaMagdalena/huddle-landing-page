@@ -114,6 +114,7 @@ main p {
 .button:focus {
   background-color: var(--clr-primary-700);
   color: white;
+  cursor: pointer;
 }
 
 .flex-group {
@@ -127,15 +128,22 @@ main p {
   width: 1.75rem;
   border: 1px solid white;
   border-radius: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .sm-icon {
   height: 1rem;
   width: 1rem;
-  filter: invert(100%);
+}
+
+.sm-border:hover,
+.sm-border:focus {
+  border-color: var(--clr-primary-700);
+}
+
+.sm-border:hover .sm-icon,
+.sm-border:focus .sm-icon {
+  color: var(--clr-primary-700);
 }
 /* attribution */
 
