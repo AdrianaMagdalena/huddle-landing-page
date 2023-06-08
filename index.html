@@ -18,6 +18,11 @@
       rel="stylesheet"
     />
 
+    <script
+      src="https://kit.fontawesome.com/841b8a192e.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
@@ -28,11 +33,15 @@
       <img class="huddle-logo" src="./images/logo.svg" alt="Huddle logo" />
     </nav>
 
-    <article>
+    <main>
       <picture>
-        <img class="mockup-pic" src="./images/illustration-mockups.svg" />
+        <img
+          class="mockup-pic"
+          src="./images/illustration-mockups.svg"
+          alt="Website preview illustration"
+        />
       </picture>
-      <main>
+      <section class="text-content">
         <h1>Build The Community Your Fans Will Love</h1>
         <p>
           Huddle re-imagines the way we build communities. You have a voice, but
@@ -40,23 +49,23 @@
           engage in genuine discussion.
         </p>
         <button class="button">Register</button>
-      </main>
-    </article>
+      </section>
+    </main>
     <footer class="social-media-icons">
-      <div class="flex-group">
-        <div class="sm-border">
+      <div role="menu" class="flex-group">
+        <div role="button" class="sm-border">
           <i class="sm-icon fa-brands fa-facebook-f"></i>
         </div>
-        <div class="sm-border">
+        <div role="button" class="sm-border">
           <i class="sm-icon fa-brands fa-twitter"></i>
         </div>
-        <div class="sm-border">
+        <div role="button" class="sm-border">
           <i class="sm-icon fa-brands fa-instagram"></i>
         </div>
       </div>
     </footer>
 
-    <section class="attribution-section">
+    <aside class="attribution-section">
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
@@ -66,10 +75,6 @@
           >Adriana Szetlak</a
         >.
       </p>
-    </section>
+    </aside>
   </body>
-  <script
-    src="https://kit.fontawesome.com/841b8a192e.js"
-    crossorigin="anonymous"
-  ></script>
 </html>
