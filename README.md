@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with single introductory section solution
 
-This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0).
 
 ## Table of contents
 
@@ -14,7 +14,6 @@ This is a solution to the [Huddle landing page with single introductory section 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -22,22 +21,15 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### The challenge
 
-Users should be able to:
+The goal:
 
 - View the optimal layout for the page depending on their device's screen size
 - See hover states for all interactive elements on the page
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Screenshot of the site on mobile](./screenshot-mobile.png)
+![Screenshot of the site on desktop](./screenshot-desktop.jpg)
 
 ### Links
 
@@ -56,11 +48,21 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+During this project I learned to use css custom properties.
+I also dove a little deeper info semantic html elements and understood them more fully.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+For the next project:
+
+- Review my knowledge about semantic HTML markup
+- Be more thoughtful when planning out the HTML structure
+- Read more on useful cases of grid and flexbox usage - when to use which and how to decide
+
+For future (in general):
+
+- Learn more about accessibility
+- Learn more about responsiveness
 
 ### Useful resources
 
@@ -70,5 +72,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Adriana Szetlak](https://github.com/AdrianaMagdalena)
+- Website (not yet finished as per June 9th 2023) - [Adriana Szetlak - Portfolio](https://adrianamagdalena.github.io/portfolio/)
+- GitHub - [Adriana Szetlak](https://github.com/AdrianaMagdalena)
 - Frontend Mentor - [@AdrianaMagdalena](https://www.frontendmentor.io/profile/AdrianaMagdalena)
