@@ -29,7 +29,7 @@ The goal:
 ### Screenshot
 
 ![Screenshot of the site on mobile](./screenshot-mobile.png)
-![Screenshot of the site on desktop](./screenshot-desktop.jpg)
+![Screenshot of the site on desktop](./screenshot-desktop.png)
 
 ### Links
 
@@ -67,11 +67,10 @@ For future (in general):
 ### Useful resources
 
 - [Josh's CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/) - My go-to CSS Reset template, to make work with CSS simpler and faster
-- [Facebook logo](https://fontawesome.com/icons/facebook-f?f=brands&s=solid&pc=%23000000)
-- [Instagram logo & Twitter logo](https://ionic.io/ionicons/)
+- [Social media logos](https://fontawesome.com/)
 
 ## Author
 
-- Website (not yet finished as per June 9th 2023) - [Adriana Szetlak - Portfolio](https://adrianamagdalena.github.io/portfolio/)
+- Portfolio (not yet finished as per June 9th 2023) - [Adriana Szetlak - Portfolio](https://adrianamagdalena.github.io/portfolio/)
 - GitHub - [Adriana Szetlak](https://github.com/AdrianaMagdalena)
 - Frontend Mentor - [@AdrianaMagdalena](https://www.frontendmentor.io/profile/AdrianaMagdalena)
