@@ -169,11 +169,6 @@ section /*new*/ p {
     height: 3.25rem;
   }
 
-  picture {
-    width: 100%;
-    height: auto;
-  }
-
   .mockup-pic {
     margin: auto;
     width: 100%;
